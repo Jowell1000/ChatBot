@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    border-radius: 10px;
+}
+input{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 9px -5px;
+    width: 600px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+h1.titrage{ 
+    font-size: 50px;
+}
+textarea.outcome{
+    height: 300px;
+    width: 600px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 9px -5px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.submit{
+    width: 70px;
+    color: white;
+    background-color: rgb(42, 67, 255);
+    text-align: center;
+    cursor: pointer;
+
+}
+.entry{
+    display: flex;
+    gap: 10px;
+}
+
+/* .entry{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 9px -5px;
+    width: 600px;
+    height: 50px;
+    margin-bottom: 20px;
+
+}
+.Output{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 9px -5px;
+    width: 600px;
+    height: 50px;
+
+} */
